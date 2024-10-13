@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/singUp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Sign Up - GreenWays</title>
 </head>
-<body>
-    
+<body class="container">
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signIn.html">Sign In</a></li>
+                <li><a href="signUp.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section">
+            <h1>Sign Up <span class="highlight">(... Registrarse)</span></h1>
+            <form class="auth-form">
+              <div class="form-group">
+                <label htmlFor="username">Username</label>
+                <input type="text" id="username" name="username" required />
+              </div>
+              <div class="form-group">
+                <label htmlFor="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label htmlFor="password">Password</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+              <div class="form-group">
+                <label htmlFor="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required />
+              </div>
+              <button type="submit" class="submit-btn">Sign Up</button>
+            </form>
+            <p class="auth-switch">
+              Already have an account? <a class="highlight adaptation" href="/signin">Sign In</a>
+            </p>
+          </section>
+    </main>
+    <footer class="footer">
+        <p>Mateo Barbato ©</p>
+    </footer>
+
 </body>
 </html>

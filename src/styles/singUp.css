@@ -1,0 +1,48 @@
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    /* max-width: 600px; */
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  h1 span {
+    font-size: 2.9vh
+}
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    font-size: 2.4vh
+  }
+  
+  .form-group input {
+    padding: 1vh;
+    border: 1px solid var(--secondary-color);
+    border-radius: 0.5rem;
+    font-size: 2.2vh;
+  }
+  
+
+  
+  .auth-switch {
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 2vh;
+  }
+  
+  .adaptation {
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .auth-switch a:hover {
+    text-decoration: underline;
+  }
+
